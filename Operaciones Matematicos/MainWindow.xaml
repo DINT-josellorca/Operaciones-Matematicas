@@ -23,7 +23,7 @@
         <TextBox x:Name="Operando_2_TextBox" HorizontalAlignment="Left" Height="23" Margin="262,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextAlignment="Right" TextChanged="TextBox_TextChanged_1"/>
         <TextBlock x:Name="Operando_1_TextBlock" HorizontalAlignment="Left" Margin="262,148,0,0" TextWrapping="Wrap" Text="Operando 1" VerticalAlignment="Top"/>
         <TextBlock x:Name="Operando_2_TextBlock" HorizontalAlignment="Left" Margin="262,216,0,0" TextWrapping="Wrap" Text="Operando 2" VerticalAlignment="Top"/>
-        <TextBox x:Name="Resultado_TextBox" HorizontalAlignment="Left" Height="23" Margin="544,192,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextAlignment="Right" IsEnabled="False"/>
+        <TextBox x:Name="Resultado_TextBox" HorizontalAlignment="Left" Height="23" Margin="544,192,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextAlignment="Right" IsReadOnly="True"/>
         <TextBlock x:Name="Resultado_TextBlock" HorizontalAlignment="Left" Margin="544,171,0,0" TextWrapping="Wrap" Text="Resultado" VerticalAlignment="Top"/>
 
     </Grid>
